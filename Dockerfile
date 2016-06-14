@@ -60,10 +60,8 @@ ADD stat.xsl /var/www/HLS/stat.xsl
 ADD html/* /var/www/
 
 # Clean // TODO: NOT WORKING
-RUN apt-get autoremove -y;\
-        apt-get -y purge wget;\
+RUN     apt-get -y purge wget;\
         apt-get -y purge unzip;\
-        apt-get -y purge build-essential libpcre3 libpcre3-dev libssl-dev software-properties-common
 
 ## run as daemon
 # Run
