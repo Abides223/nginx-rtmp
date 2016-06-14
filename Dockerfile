@@ -59,15 +59,16 @@ RUN mkdir -p /var/www/HLS/
 ADD stat.xsl /var/www/HLS/stat.xsl
 ADD html/* /var/www/
 
-# Clean // TODO: NOT WORKING
-RUN     apt-get -y purge wget;\
-        apt-get -y purge unzip;\
-
 ## run as daemon
 # Run
 CMD service nginx start
 
 ## run interactive
 #  CMD service nginx start & /bin/bash
+
+# Clean // TODO: NOT WORKING
+# RUN apt-get -y purge wget unzip build-essential libpcre3 libpcre3-dev libssl-dev software-properties-common
+
+
 
 
