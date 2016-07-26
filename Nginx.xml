@@ -18,7 +18,7 @@
   </Description>
   <Project>https://www.nginx.com/</Project>
   <Registry>https://hub.docker.com/r/kleinish/nginx-rtmp/</Registry>
-  <Repository>kleinish/nginx-rtmp/</Repository>
+  <Repository>kleinish/nginx-rtmp</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
