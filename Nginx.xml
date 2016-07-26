@@ -17,17 +17,17 @@
   [b]/config[/b]Storing Configuration and the www folder[br]
   </Description>
   <Project>https://www.nginx.com/</Project>
-  <Registry>https://hub.docker.com/r/kleinish/nginx-rtmp-1/</Registry>
-  <Repository>kleinish/nginx-rtmp-1/</Repository>
+  <Registry>https://hub.docker.com/r/kleinish/nginx-rtmp/</Registry>
+  <Repository>kleinish/nginx-rtmp/</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
     <Variable>
-      <Name>Kleinish</Name>
+      <Name>nginx</Name>
       <Value>99</Value>
     </Variable>
     <Variable>
-      <Name>Kleinish</Name>
+      <Name>nginx</Name>
       <Value>100</Value>
     </Variable>
   </Environment>
@@ -36,7 +36,7 @@
     <Publish>
       <Port>
         <HostPort>80</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
