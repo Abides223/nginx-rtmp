@@ -17,8 +17,8 @@
   [b]/config[/b]Storing Configuration and the www folder[br]
   </Description>
   <Project>https://www.nginx.com/</Project>
-  <Registry>https://hub.docker.com/r/kleinish/nginx-rtmp/</Registry>
-  <Repository>kleinish/nginx-rtmp</Repository>
+  <Registry>https://hub.docker.com/r/abides223/nginx-rtmp/</Registry>
+  <Repository>abides223/nginx-rtmp</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
